@@ -1,0 +1,13 @@
+SilverStripe E-commerce Module 0.5.1 beta
+=======================================
+
+
+INSTALLATION
+------------
+
+1. Unpack the module into your project.  It should everything should be contained within a folder called 'wiki'.
+2. Visit your site with ?flush=1 on the end of the URL.
+3. Update your template so that there is an indicator of whether or not you're logged in, next to a log in link.
+4. Log in as a user with edit rights.
+
+You should now see an "edit this page" link at the bottom of your content!

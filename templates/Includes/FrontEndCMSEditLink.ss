@@ -1,0 +1,1 @@
+<% if EditLink %><a href="{$EditLink}?ajax=1" class="greybox frontendEditLink" title="Edit $Title.ATT">Edit</a><% end_if %>
