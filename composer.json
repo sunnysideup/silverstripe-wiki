@@ -1,5 +1,5 @@
 {
-	"name": "silverstripe/wiki",
+	"name": "sunnysideup/wiki",
 	"type": "silverstripe-module",
 	"description": "front-end page editor for Silverstripe CMS",
 	"homepage": "http://www.silverstripe-webdevelopment.com",
