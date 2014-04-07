@@ -1,31 +1,35 @@
-###############################################
 Wiki Module
-Pre 0.1 proof of concept
-###############################################
+================================================================================
+
+Allows you to edit pages on the "front-side"
+
+To add a link, add <% include FrontEndCMSEditLink %> to your template.
 
 Developer
 -----------------------------------------------
 Nicolaas [at] sunnysideup.co.nz
 Robbie [at] sunnysideup.co.nz
 
-Maintainer Contact
------------------------------------------------
-Sam Minnee (Nickname: sminnee)
-<sam (at) silverstripe (dot) com>
-
 Thank you
 -----------------------------------------------
-Thank you AJ Short for valuable comments
+Thank you AJ Short And Sam Minnee for invvaluable comments
+
 
 Requirements
 -----------------------------------------------
-SilverStripe 2.3.0 or greater.
+see composer.json
+
 
 Documentation
 -----------------------------------------------
-Allows you to edit pages on the "front-side"
+Please contact author for more details.
 
-To add a link, add <% include FrontEndCMSEditLink %> to your template.
+Any bug reports and/or feature requests will be
+looked at
+
+We are also very happy to provide personalised support
+for this module in exchange for a small donation.
+
 
 Installation Instructions
 -----------------------------------------------
