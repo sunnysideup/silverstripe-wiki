@@ -7,12 +7,13 @@ To add a link, add <% include FrontEndCMSEditLink %> to your template.
 
 Developer
 -----------------------------------------------
-Nicolaas [at] sunnysideup.co.nz
-Robbie [at] sunnysideup.co.nz
+
+- Nicolaas [at] sunnysideup.co.nz
+- Robbie [at] sunnysideup.co.nz
 
 Thank you
 -----------------------------------------------
-Thank you AJ Short And Sam Minnee for invvaluable comments
+Thank you AJ Short And Sam Minnee for invaluable comments
 
 
 Requirements
@@ -40,11 +41,15 @@ To Do
 -----------------------------------------------
 Change CanEditType to OnlyTheseUsers and
 and add:
+```php
 this->owner->EditorGroups()->add($Group->ID);
 this->owner->EditorGroups()->add($AdminGroup->ID);
-make sure it does not duplicate.
+```
+make sure it does not duplicate:
 
-(a) use getFrontEndField,
-(b) check permission model
-(c) fix JS hack in template
-(d) review which stat vars can be ditched
++  use getFrontEndField,
++  check permission model
++ fix JS hack in template
++ review which stat vars can be ditched
+
+
