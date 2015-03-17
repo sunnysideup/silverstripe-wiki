@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<source xmlns="http://xml.phpdox.net/token">
+  <file xmlns="http://xml.phpdox.net/src" path="/var/www/_modules/wiki/trunk/docs/en/phpdox/../../.." file="_config.php" realpath="/var/www/_modules/wiki/trunk/_config.php" size="1901" time="2015-03-14T10:23:52+13:00" unixtime="1426281832" sha1="4bd50a35d64a7235ff7e5ac6f81d1506c1faabb5" relative="_config.php"/>
+  <line no="1">
+    <token name="T_OPEN_TAG">&lt;?php</token>
+  </line>
+  <line no="2"/>
+  <line no="3"/>
+  <line no="4">
+    <token name="T_COMMENT">//copy the lines between the START AND END line to your /mysite/_config.php file and choose the right settings</token>
+  </line>
+  <line no="5">
+    <token name="T_COMMENT">//===================---------------- START frontendcms MODULE ----------------===================</token>
+  </line>
+  <line no="6">
+    <token name="T_COMMENT">//DataObject::add_extension('SiteTree', 'FrontEndCMS');</token>
+  </line>
+  <line no="7">
+    <token name="T_COMMENT">//Object::add_extension('ContentController', 'FrontEndCMS_Controller');</token>
+  </line>
+  <line no="8"/>
+  <line no="9">
+    <token name="T_COMMENT">//FrontEndCMS::set_member_email_fieldname_array (array("Email", "AlternativeEmail"));</token>
+  </line>
+  <line no="10">
+    <token name="T_COMMENT">//FrontEndCMS::set_group_title ('Business Members');</token>
+  </line>
+  <line no="11">
+    <token name="T_COMMENT">//FrontEndCMS::set_group_code ('business-members');</token>
+  </line>
+  <line no="12">
+    <token name="T_COMMENT">//FrontEndCMS::set_access_code ('ACCESS_BUSINESS');</token>
+  </line>
+  <line no="13">
+    <token name="T_COMMENT">//FrontEndCMS::set_other_groups_to_which_members_should_be_added (array("forum-members"));</token>
+  </line>
+  <line no="14">
+    <token name="T_COMMENT">//FrontEndCMS::set_filter_many_many_table_in_CMS (true);</token>
+  </line>
+  <line no="15">
+    <token name="T_COMMENT">//FrontEndCMS::set_editable_child_combination (array("BusinessPage" =&gt; "ProductPage"));</token>
+  </line>
+  <line no="16">
+    <token name="T_COMMENT">//FrontEndCMS::set_editor_details_tab_name ("Editors");</token>
+  </line>
+  <line no="17"/>
+  <line no="18">
+    <token name="T_COMMENT">//FrontEndCMS_Controller::set_requirements_to_block(array("mysite/javascript/specialstuff.js", "mysite/css/specialstuff.css"));</token>
+  </line>
+  <line no="19">
+    <token name="T_COMMENT">//FrontEndCMS_Controller::add_requirement_to_block("mysite/javascript/specialstuff.js");</token>
+  </line>
+  <line no="20">
+    <token name="T_COMMENT">//FrontEndCMS_Controller::set_field_names_to_remove (</token>
+  </line>
+  <line no="21">
+    <token name="T_COMMENT">//	array(</token>
+  </line>
+  <line no="22">
+    <token name="T_COMMENT">//		'Behaviour',</token>
+  </line>
+  <line no="23">
+    <token name="T_COMMENT">//		'To do',</token>
+  </line>
+  <line no="24">
+    <token name="T_COMMENT">//		'Todo',</token>
+  </line>
+  <line no="25">
+    <token name="T_COMMENT">//		'To-do',</token>
+  </line>
+  <line no="26">
+    <token name="T_COMMENT">//		'Reports',</token>
+  </line>
+  <line no="27">
+    <token name="T_COMMENT">//		'Access',</token>
+  </line>
+  <line no="28">
+    <token name="T_COMMENT">//		'URL',</token>
+  </line>
+  <line no="29">
+    <token name="T_COMMENT">//		'Members',</token>
+  </line>
+  <line no="30">
+    <token name="T_COMMENT">//		'Metadata'</token>
+  </line>
+  <line no="31">
+    <token name="T_COMMENT">//	);</token>
+  </line>
+  <line no="32"/>
+  <line no="33">
+    <token name="T_COMMENT">//FrontEndCMS_Controller::add_field_name_to_remove("My KRREZY TAB IN THE CMS") {</token>
+  </line>
+  <line no="34">
+    <token name="T_COMMENT">// note the option below to change the type OR to replace with complete new one!</token>
+  </line>
+  <line no="35">
+    <token name="T_COMMENT">//FrontEndCMS_Controller::set_field_names_to_replace (array('Image1' =&gt; 'SimpleImageField', Image2' =&gt; new SimpleImageField('Image2','Image 2')));</token>
+  </line>
+  <line no="36">
+    <token name="T_COMMENT">//FrontEndCMS_Controller::add_field_names_to_replace($oldFieldName = "Image1", $newFieldTypeOrObject = new SimpleImageField('Image2','Image 2'));</token>
+  </line>
+  <line no="37">
+    <token name="T_COMMENT">//FrontEndCMS_Controller::set_use_cms_fields(true);</token>
+  </line>
+  <line no="38">
+    <token name="T_COMMENT">//===================---------------- END frontendcms MODULE ----------------===================</token>
+  </line>
+  <line no="39"/>
+  <line no="40"/>
+</source>
