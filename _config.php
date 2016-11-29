@@ -36,4 +36,3 @@
 //FrontEndCMS_Controller::add_field_names_to_replace($oldFieldName = "Image1", $newFieldTypeOrObject = new SimpleImageField('Image2','Image 2'));
 //FrontEndCMS_Controller::set_use_cms_fields(true);
 //===================---------------- END frontendcms MODULE ----------------===================
-
