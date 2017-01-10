@@ -1,55 +1,72 @@
-Wiki Module
-================================================================================
+# Silverstripe wiki module
+[![Build Status](https://travis-ci.org/sunnysideup/silverstripe-wiki.svg?branch=master)](https://travis-ci.org/sunnysideup/silverstripe-wiki)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-wiki/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-wiki/?branch=master)
+[![codecov.io](https://codecov.io/github/sunnysideup/silverstripe-wiki/coverage.svg?branch=master)](https://codecov.io/github/sunnysideup/silverstripe-wiki?branch=master)
+![helpfulrobot](https://helpfulrobot.io/sunnysideup/wiki/badge)
 
-Allows you to edit pages on the "front-side"
-
-To add a link, add <% include FrontEndCMSEditLink %> to your template.
-
-Developer
------------------------------------------------
-
-- Nicolaas [at] sunnysideup.co.nz
-- Robbie [at] sunnysideup.co.nz
-
-Thank you
------------------------------------------------
-Thank you AJ Short And Sam Minnee for invaluable comments
+[![Latest Stable Version](https://poser.pugx.org/sunnysideup/wiki/version)](https://packagist.org/packages/sunnysideup/wiki)
+[![License](https://poser.pugx.org/sunnysideup/wiki/license)](https://packagist.org/packages/sunnysideup/wiki)
+[![Monthly Downloads](https://poser.pugx.org/sunnysideup/wiki/d/monthly)](https://packagist.org/packages/sunnysideup/wiki)
 
 
-Requirements
------------------------------------------------
-see composer.json
+## Documentation
 
 
-Documentation
------------------------------------------------
-Please contact author for more details.
 
-Any bug reports and/or feature requests will be
-looked at
+ * [Developer Docs](docs/en/INDEX.md)
+ * [User Guide](docs/en/userguide.md)
+ * [API](http://ssmods.com/apis/wiki/docs/en/api/)
 
-We are also very happy to provide personalised support
-for this module in exchange for a small donation.
+## Requirements
 
 
-Installation Instructions
------------------------------------------------
-add module, review ideas in _config.php,
-place configurations into your mysite/_config.php file
 
-To Do
------------------------------------------------
-Change CanEditType to OnlyTheseUsers and
-and add:
-```php
-this->owner->EditorGroups()->add($Group->ID);
-this->owner->EditorGroups()->add($AdminGroup->ID);
+see [composer.json](composer.json) for details
+
+### Suggested Modules
+
+
+
+see [composer.json](composer.json) for details
+
+
+## Installation
+
+
 ```
-make sure it does not duplicate:
+composer require sunnysideup/wiki
+```
 
-+  use getFrontEndField,
-+  check permission model
-+ fix JS hack in template
-+ review which stat vars can be ditched
+### Configuration
 
 
+
+In the `_config` folder you will find the `wiki.yml.example`
+file that shows options for the configuration of this module.
+
+We recommend that you:
+
+  1. copy these `wiki.yml.example` files into your
+`mysite/_config` folder
+  2. remove the .example extension
+  3. delete the lines you not care about, and
+  4. adjust the configurations that you would like to use.
+
+
+## Contributing
+
+
+
+We welcome any contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+## Paid assistance
+
+
+
+You can pay us to create an improved / adapted version of this module for your own projects.  Please contact us if you like to find out more: [www.sunnysideup.co.nz](http://www.sunnysideup.co.nz)
+
+## Author
+
+
+
+Sunny Side Up Ltd.
