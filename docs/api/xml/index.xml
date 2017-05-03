@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<index xmlns="http://xml.phpdox.net/src" basedir="/var/www/_modules/wiki/trunk">
-  <namespace name="">
-    <class name="ResetFrontEndCMSUserPasswordForm" src="code/ResetFrontEndCMSUserPasswordForm.php" description="Log-in form for the &quot;member&quot; authentication method" xml="classes/ResetFrontEndCMSUserPasswordForm.xml"/>
-  </namespace>
-</index>

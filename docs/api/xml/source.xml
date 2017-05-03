@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<source xmlns="http://xml.phpdox.net/src">
-  <dir name="/var/www/_modules/wiki/trunk">
-    <file name="_config.php" size="1901" time="2015-03-14T10:23:52+13:00" unixtime="1426281832" sha1="4bd50a35d64a7235ff7e5ac6f81d1506c1faabb5" xml="tokens/_config.php.xml"/>
-    <dir name="code">
-      <file name="ResetFrontEndCMSUserPasswordForm.php" size="328" time="2015-03-14T10:23:52+13:00" unixtime="1426281832" sha1="30f3b31b335d163fb21027d481fa865164e9efd5" xml="tokens/code/ResetFrontEndCMSUserPasswordForm.php.xml"/>
-    </dir>
-  </dir>
-</source>
